@@ -1,0 +1,20 @@
+Pseudo (Vincent) :
+
+Police : Verdana
+Taille : 18px
+Graisse : Bold
+Couleur: #fff
+
+Localisation (Westbrook) :
+
+Police : Verdana
+Taille : 12px
+Graisse : Regular
+Couleur: #fff 
+
+Vues (1 443 978) :
+
+Police : Verdana
+Taille : 12px
+Graisse : Regular
+Couleur: #fff 

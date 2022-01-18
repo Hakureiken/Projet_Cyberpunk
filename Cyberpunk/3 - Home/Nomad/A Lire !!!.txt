@@ -1,0 +1,22 @@
+Titre Nomad :
+
+Police : Viga
+Taille : 36px
+Graisse : Regular
+Couleur: #fff
+
+Texte Presentation Nomad :
+
+Police : Verdana
+Taille : 24px
+Graisse : Bold
+Couleur: #fff
+
+
+Texte :
+
+Roaming the Badlands, looting scrapyards, raiding fuel
+depots - life on the road wasn't easy. But growing up
+in a nomad clan has its perks. Honesty, integrity, and
+a love of freedom - qualities that few in Night City
+possess, and no amount of money can buy.

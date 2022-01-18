@@ -1,0 +1,20 @@
+Pseudo (Sasquatch) :
+
+Police : Verdana
+Taille : 18px
+Graisse : Bold
+Couleur: #fff
+
+Localisation (Kabuki) :
+
+Police : Verdana
+Taille : 12px
+Graisse : Regular
+Couleur: #fff 
+
+Vues (1 918 704) :
+
+Police : Verdana
+Taille : 12px
+Graisse : Regular
+Couleur: #fff 

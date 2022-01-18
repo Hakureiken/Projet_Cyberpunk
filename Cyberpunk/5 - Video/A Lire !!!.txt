@@ -1,0 +1,6 @@
+Titre Video / Recommandation :
+
+Police : Verdana
+Taille : 24px
+Graisse : Bold
+Couleur: #fff

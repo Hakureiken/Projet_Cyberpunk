@@ -1,0 +1,20 @@
+Pseudo (T-Bag) :
+
+Police : Verdana
+Taille : 18px
+Graisse : Bold
+Couleur: #fff
+
+Localisation (Heywood) :
+
+Police : Verdana
+Taille : 12px
+Graisse : Regular
+Couleur: #fff 
+
+Vues (2 739 988) :
+
+Police : Verdana
+Taille : 12px
+Graisse : Regular
+Couleur: #fff 

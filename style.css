@@ -1,0 +1,426 @@
+*,*::after,*::before {box-sizing: border-box;padding: 0;margin: 0;}
+
+:root {
+    --neon-text-color: #0094FF;
+}
+
+body {
+    height: 100vh;
+}
+
+.row>* {
+    padding: 0 !important;
+}
+
+.hide {
+    width: 100%;
+    position: absolute;
+    opacity:0%;
+    transition: 0.5s;
+    background: #484848;
+    z-index: 10;
+}
+
+a:visited {
+    color:white !important;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Connexion/Inscription */
+
+.backgroundblanc {
+    
+    background-color: rgba(255,255,255,0.85);
+}
+
+.rounded-5 {
+    border-radius: 5%;
+}
+
+.rounded-x {
+    border-radius: 30px;
+}
+
+.move {
+    width: 70%;
+    height: 35px;
+    position: relative;
+}
+
+.animation {
+    height: 100%;width: 50%;
+    background: linear-gradient(to right, red, orange);
+    position: absolute;
+    border-radius: 40px;
+    z-index:0;
+    transition: all ease-in-out 1s;
+}
+
+form {
+    transition: all ease-in-out 1s;
+}
+
+.index {
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+}
+
+.inscription, .connexion {
+    width: 45%;height: 100%;
+    font-weight: 800;
+}
+
+.bgnone {
+    background: none;
+}
+
+.accueil {
+    background: url(Cyberpunk/1\ -\ InscriptionConnexion/Background.jpg);
+    background-size: cover;
+}
+
+.bordernone {
+    border:none
+}
+
+.form-control-underline {
+    border: none !important;
+    border-bottom: 1px solid orange !important;
+    width: 100%;
+}
+
+.signin, .login {
+    border-radius: 25px;
+    width: 70%;
+    align-self: center;
+    background: linear-gradient(to right, red, orange);
+
+}
+
+input {
+    font-weight: 600;
+}
+
+/* Accueil */
+
+@font-face {
+    font-family: 'cyberpunk';
+    src: url(Cyberpunk/Cyberpunk-Regular.ttf);
+}
+
+.police {
+    font-family: 'cyberpunk';
+    font-size: 100px;
+    color:black;
+    position: absolute;
+    animation-name: police;
+    animation-timing-function: linear;
+    animation-duration: 1.75s;
+}
+
+.intro {
+    background: url(Cyberpunk/2\ -\ Intro/Background.jpg);
+    background-size: 100% 100%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* filter: blur(3px); */
+}
+
+.block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cyberpunk {
+    min-height: 30%;
+    animation-name: cyber;
+    animation-timing-function: linear;
+    animation-duration: 1.75s;
+    z-index: 1;
+}
+
+/* eteint (long) / allumé (bref) / éteint (long)/ allumé (bref) / éteint (bref) / allumé (fini) 2.5s */
+
+/* éteint/ allumé / éteint/allumé/ éteint/allumé / éteint/allumé /éteint/allumé*/
+
+@keyframes cyber {
+
+    0% {
+        visibility: hidden;
+    }
+
+    24.9% {
+        visibility: hidden;
+    }
+
+    25% {
+        visibility: visible;
+    }
+
+    28.9% {
+        visibility: visible;
+    }
+
+    29% {
+        visibility: hidden;
+    }
+
+    87.9% {
+        visibility: hidden;
+    }
+
+    88% {
+        visibility: visible;
+    }
+
+    89.9% {
+        visibility: visible;
+    }
+
+    90% {
+        visibility: hidden;
+    }
+
+    94.9% {
+        visibility: hidden;
+    }
+
+    99.9% {
+        visibility: visible;
+    }
+
+    100% {
+        visibility: visible;
+    }
+
+}
+
+/* Transition */
+
+.progress-bar {
+    animation-name: loading;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+}
+
+@keyframes loading {
+
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+
+}
+
+/* Home */
+
+.home {
+    background: url(Cyberpunk/3\ -\ Home/Background.jpg);
+    background-size: cover;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    justify-content: flex-end;
+}
+
+.femme {
+    background: url(Cyberpunk/3\ -\ Home/Panam_Palmer.png);
+    width: 40%; height: 90%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: flex-end;
+    transition: 2s;
+    position: absolute;
+    left:-40%;
+}
+
+.smoke {
+    background: url(Cyberpunk/3\ -\ Home/Smoke2.png);
+    width: 150%;height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left:-20%;
+    opacity: 0%;
+    transition: 4s;
+    z-index: 1;
+}
+
+.sousbouton {
+    border: none;
+    background: none;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.menuinterne {
+    align-self: center;
+    width: 50%;
+}
+
+.contenu {
+    width: 100%;
+}
+
+.nomad, .streetkid, .corpo {
+    min-width: 100%;
+    transition: 1s;
+    
+}
+
+.sousbouton.active {
+    
+    color: #128DDF;
+    text-shadow:-0.1rem -0rem 0.2rem #fff,
+                0rem 0.1rem 0.2rem #fff,
+                0.1rem -0rem 0.2rem #fff,
+                0rem -0.1rem 0.2rem #fff,
+                0 0 .5rem var(--neon-text-color),
+                0 0 .2rem var(--neon-text-color);
+    
+}
+
+.relative {
+    position: relative;
+}
+
+.silver {
+    position: absolute;
+    left: 74%;
+    transition: 1s;
+}
+
+.hovernomad:hover + .silver {
+    left:0;
+}
+
+/* Music */
+
+    /* cards */
+
+.music {
+    background: url(Cyberpunk/4\ -\ Music/Background.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.ponponshit {
+    background: url(Cyberpunk/4\ -\ Music/1\ -\ Ponponshit/Ponponshit_Background.jpg);
+    background-size: 100% 100%;
+}
+
+.nightcity {
+    background: url(Cyberpunk/4\ -\ Music/2\ -\ NightCity/NightCity_Background.jpg);
+    background-size: cover;
+}
+
+.therebelpath {
+    background: url(Cyberpunk/4\ -\ Music/3\ -\ TheRebelPath/TheRebelPath_Background.jpg);
+    background-size: cover;
+}
+
+.iwantto {
+    background: url(Cyberpunk/4\ -\ Music/4\ -\ IWantTo/IWantTo_Background.jpg);
+    background-size: cover;
+}
+
+.circusmagnus {
+    background: url(Cyberpunk/4\ -\ Music/5\ -\ CircusMagnus/CircusMinimus_Background.jpg);
+    background-size: cover;
+}
+
+.gr4ves {
+    background: url(Cyberpunk/4\ -\ Music/6\ -\ Gr4ves/Gr4ves_Background.jpg);
+    background-size: cover;
+}
+.card {
+    height: 100%;
+    border: 1px solid white;
+    border-radius: 5%;
+}
+.cards {
+    position: relative;
+    height: 40%;
+    padding: 2.5%;
+}
+
+.card-img-top {
+    transition: 2s;
+    border: 1px solid green;
+}
+
+.card img {
+    height: 35%;width: 70%;
+    
+    border-radius: 5%;
+}
+
+h5, h6 {
+    color:white
+}
+
+.cacher {
+    display:none;
+}
+
+.pause-btn {
+    display: none;
+}
+
+.displaynone {
+    display: none;
+}
+
+.equalizer {
+    transition: 2s;
+    position: absolute;
+    left:55%;top: 55%;
+    width: 40%;height: 30%;
+}
+
+    /* durée de transition */
+
+.ponponshit, .nightcity, .therebelpath, .iwantto, .circusmagnus, .gr4ves {
+    transition: 2s;
+}
+
+.changeponponshit, .changenightcity, .changetherebelpath, .changeiwantto, .changecircusmagnus, .changegr4ves {
+    
+    transition: 1s linear;
+}
+
+    /* cyberpunkred */
+
+.cyberpunkred {
+    position: absolute;
+    left:40%;top:0%;
+    background: url(Cyberpunk/4\ -\ Music/Titre_Neon.png);
+    background-size: contain;
+    height: 20%;width: 60%;
+    background-repeat: no-repeat;
+}
+
+/* test */
+
+.hp_slide{
+    width:100%;
+    background:white;
+    height:5px;
+}
+.hp_range{
+    width:0;
+    background:black;
+    height:5px;
+}

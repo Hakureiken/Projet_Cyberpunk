@@ -1,0 +1,13 @@
+Titre Musique  (Circus Minimus) :
+
+Police : Raskhal
+Taille : 18px
+Graisse : Regular
+Couleur: #fff
+
+Auteur Musique (JVZEL):
+
+Police : Raskhal
+Taille : 12px
+Graisse : Regular
+Couleur: #fff

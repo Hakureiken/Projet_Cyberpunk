@@ -1,0 +1,30 @@
+Titre Inscription / Connexion / Sign In :
+
+Police : Verdana
+Taille : 24px
+Graisse : Bold
+Couleur: #273A48
+
+Sous-titre Pseudo / E-mail / Date de naissance / Mot de passe :
+
+Police : Verdana
+Taille : 24px
+Graisse : Regular
+Couleur: #273A48
+
+CGU :
+
+Police : Verdana
+Taille : 18px
+Graisse : Regular
+Couleur: #000
+
+
+Dégradé Boutton :
+
+#E12929 to #FFAA47
+
+Backgroud Inscription / Connexion :
+
+Couleur: #fff
+Opacité: 90%

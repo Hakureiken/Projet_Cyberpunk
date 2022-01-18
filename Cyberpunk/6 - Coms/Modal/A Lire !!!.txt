@@ -1,0 +1,27 @@
+Commentaire Publication (Time move in one direction, memory in another) :
+
+Police : Verdana
+Taille : 14px
+Graisse : Bold
+Couleur: #232F45
+
+Texte Like et Comment :
+
+Police : Verdana
+Taille : 15px
+Graisse : Bold
+Couleur: #3A3A45
+
+Pseudo Commentaire :
+
+Police : Verdana
+Taille : 12px
+Graisse : Bold
+Couleur: #000
+
+Texte Commentaire :
+
+Police : Verdana
+Taille : 12px
+Graisse : Regular
+Couleur: #000

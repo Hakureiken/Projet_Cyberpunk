@@ -1,0 +1,20 @@
+Pseudo (Rogue) :
+
+Police : Verdana
+Taille : 18px
+Graisse : Bold
+Couleur: #fff
+
+Localisation (Coast View) :
+
+Police : Verdana
+Taille : 12px
+Graisse : Regular
+Couleur: #fff 
+
+Vues (31 244 974) :
+
+Police : Verdana
+Taille : 12px
+Graisse : Regular
+Couleur: #fff 

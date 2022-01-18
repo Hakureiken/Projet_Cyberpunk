@@ -1,0 +1,21 @@
+Titre StreetKid :
+
+Police : Viga
+Taille : 36px
+Graisse : Regular
+Couleur: #fff
+
+Texte Presentation Streetkid :
+
+Police : Verdana
+Taille : 24px
+Graisse : Bold
+Couleur: #fff
+
+Texte :
+
+They say if you wanna understand the streets, you gotta
+live 'em. Gangs, fixers, dolls, small-time pushers -
+you were raised by them all. Down here the law of the
+jungle dictates the weak serve the strong - the only
+law in Night City you have yet to break.

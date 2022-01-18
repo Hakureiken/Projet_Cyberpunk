@@ -1,0 +1,27 @@
+Gros Titre :
+
+Police : Verdana
+Taille : 36px
+Graisse : Bold
+Couleur: #000
+
+Info / Langage :
+
+Police : Verdana
+Taille : 24px
+Graisse : Bold
+Couleur: #fff 
+
+#Pseudo / Langage(Dropdown):
+
+Police : Verdana
+Taille : 24px
+Graisse : Regular
+Couleur: #000  
+
+Tout les autres textes :
+
+Police : Verdana
+Taille : 18px
+Graisse : Regular ou Bold
+Couleur: #000 ou #fff  
